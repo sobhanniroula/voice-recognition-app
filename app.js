@@ -59,6 +59,7 @@ btn.addEventListener('click', () => {
     recognition.start();
 });
 
+
 function readOutLoud(message) {
     const speech = new SpeechSynthesisUtterance();
 
@@ -81,6 +82,7 @@ function readOutLoud(message) {
     speech.volume = 1;
     speech.rate = 1;
     speech.pitch = 1;
+    // speech.voice = voices[48];
 
     window.speechSynthesis.speak(speech);
 }

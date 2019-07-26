@@ -27,6 +27,8 @@ html, body {
 h1 {
     text-align: center;
     color: #ddd;
+    letter-spacing: 2px;
+    font-family: sans-serif;
 }
 
 .instructions p {
@@ -50,6 +52,11 @@ button {
     border-radius: 0.5rem;
     margin-bottom: 20px;
     margin: 0 auto;
+}
+
+button:hover {
+    letter-spacing: 3px;
+    cursor: pointer;
 }
 
 h3 {
