@@ -70,7 +70,7 @@ function readOutLoud(message) {
     } else if (message.includes('weather')) {
         const finalText = weather[Math.floor(Math.random() * weather.length)];
         speech.text = finalText;
-    } else if (message.includes('love')) {
+    } else if (message.includes('love') || message.includes('care')) {
         const finalText = caring[Math.floor(Math.random() * caring.length)];
         speech.text = finalText;
     } else if (message.includes('time')) {
