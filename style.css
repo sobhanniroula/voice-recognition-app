@@ -4,6 +4,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     background-image: linear-gradient(rgba(0,153,136,0.7), rgba(0,119,153,0.7));
 }
 
@@ -18,3 +19,4 @@ button {
     border: none;
     border-radius: 0.5rem;
 }
+
